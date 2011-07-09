@@ -1,0 +1,50 @@
+# Shacks
+
+Shack(1):
+    id:                 1
+    name:               Stålebua
+    description:        Vestibulum ante ipsum primis in faucibus
+    yearBuilt:          2011
+    numberOfBeds:       8
+    numberOfBedrooms:   3
+    livingArea:         125
+    smokingAllowed:     false
+    petsAllowed:        false
+    indoorFacilities:   [facility.cd_player_radio, facility.coffe_machine, facility.dishwascher, facility.electricity, facility.fridge, facility.kettle, facility.microwave, facility.shower, facility.stove, facility.toilet, facility.tv, facility.waffle_iron, facility.washing_machine]
+    outdoorFacilities:  [facility.drive_to_the_door, facility.garden_furniture, facility.patio, facility.terrace]
+    
+Shack(2):
+    name:               Beritbua
+    description:        Vestibulum ante ipsum primis in faucibus
+    yearBuilt:          2011
+    numberOfBeds:       8
+    numberOfBedrooms:   3
+    livingArea:         125
+    smokingAllowed:     false
+    petsAllowed:        false
+    indoorFacilities:   [facility.cd_player_radio, facility.coffe_machine, facility.dishwascher, facility.electricity, facility.fridge, facility.kettle, facility.microwave, facility.shower, facility.stove, facility.toilet, facility.tv, facility.waffle_iron, facility.washing_machine]
+    outdoorFacilities:  [facility.drive_to_the_door, facility.garden_furniture, facility.patio, facility.terrace]
+    
+Shack(3):
+    name:               Grethebua
+    description:        Vestibulum ante ipsum primis in faucibus
+    yearBuilt:          2011
+    numberOfBeds:       8
+    numberOfBedrooms:   3
+    livingArea:         125
+    smokingAllowed:     false
+    petsAllowed:        false
+    indoorFacilities:   [facility.cd_player_radio, facility.coffe_machine, facility.dishwascher, facility.electricity, facility.fridge, facility.kettle, facility.microwave, facility.shower, facility.stove, facility.toilet, facility.tv, facility.waffle_iron, facility.washing_machine]
+    outdoorFacilities:  [facility.drive_to_the_door, facility.garden_furniture, facility.patio, facility.terrace]
+    
+Shack(4):
+    name:               Kurtbua
+    description:        Vestibulum ante ipsum primis in faucibus
+    yearBuilt:          2011
+    numberOfBeds:       8
+    numberOfBedrooms:   3
+    livingArea:         125
+    smokingAllowed:     false
+    petsAllowed:        false
+    indoorFacilities:   [facility.cd_player_radio, facility.coffe_machine, facility.dishwascher, facility.electricity, facility.fridge, facility.kettle, facility.microwave, facility.shower, facility.stove, facility.toilet, facility.tv, facility.waffle_iron, facility.washing_machine]
+    outdoorFacilities:  [facility.drive_to_the_door, facility.garden_furniture, facility.patio, facility.terrace]

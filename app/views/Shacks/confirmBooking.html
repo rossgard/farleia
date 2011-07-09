@@ -1,0 +1,78 @@
+#{extends 'main.html' /}
+
+#{set title:'Confirm ' + shack.name + ' booking' /}
+
+<h1>&{'confirm.booking.header'}</h1>
+
+#{form @confirmBooking(shack.id)}
+
+	<h2>${shack.name}</h2>
+
+   	<p>
+		<label>&{'booking.firstName'}: </label>${booking.firstName}
+		<input type="hidden" name="booking.firstName" value="${booking.firstName}" /> 
+    </p>
+    
+	<p>
+		<label>&{'booking.familyName'}: </label>${booking.familyName}
+		<input type="hidden" name="booking.familyName" value="${booking.familyName}" /> 
+	</p>
+	
+	<p>
+		<label>&{'confirm.booking.numberOfPersons'}: </label>${booking.numberOfAdults}/${booking.numberOfChildren}
+		<input type="hidden" name="booking.numberOfAdults" value="${booking.numberOfAdults}" /> 
+		<input type="hidden" name="booking.numberOfChildren" value="${booking.numberOfChildren}" /> 
+	</p>
+	
+	<p>
+		<label>&{'booking.address'}: </label>${booking.address}
+		<input type="hidden" name="booking.address" value="${booking.address}" /> 
+	</p>
+	
+	<p>
+		<label>&{'confirm.booking.zipCode_city'}: </label>${booking.zipCode}/${booking.city}
+		<input type="hidden" name="booking.zipCode" value="${booking.zipCode}" />
+		<input type="hidden" name="booking.city" value="${booking.city}" />  
+	</p>
+	
+	<p>
+		<label>&{'booking.country'}: </label>${booking.country}
+		<input type="hidden" name="booking.country" value="${booking.country}" /> 
+	</p>    
+
+	<p>
+		<label>&{'booking.telephoneNumber'}: </label>${booking.telephoneNumber}
+		<input type="hidden" name="booking.telephoneNumber" value="${booking.telephoneNumber}" /> 
+	</p>
+
+	<p>
+		<label>&{'booking.mobilePhoneNumber'}: </label>${booking.mobilePhoneNumber}
+		<input type="hidden" name="booking.mobilePhoneNumber" value="${booking.mobilePhoneNumber}" /> 
+	</p>
+	
+	<p>
+		<label>&{'booking.email'}: </label>${booking.email}
+		<input type="hidden" name="booking.email" value="${booking.email}" /> 
+	</p>
+	
+		<p>
+		<label>&{'confirm.booking.details'}: </label>
+		<input type="hidden" name="booking.details" value="${booking.details}" /> 
+	</p>          	
+	
+	 <p>
+        <strong>Check in date:</strong> ${booking.checkinDate.format('yyyy-MM-dd')}
+        <input type="hidden" name="booking.checkinDate" value="${booking.checkinDate.format('yyyy-MM-dd')}">
+    </p>
+    <p>
+        <strong>Check out date:</strong> ${booking.checkoutDate.format('yyyy-MM-dd')}
+        <input type="hidden" name="booking.checkoutDate" value="${booking.checkoutDate.format('yyyy-MM-dd')}">
+    </p>
+    
+        <input type="submit" value="&{'confirm.booking.confirm'}" name="confirm" class="button"> 
+        <input type="submit" value="&{'confirm.booking.revise'}" name="revise" class="button"> <a href="@{showCabin(shack.id)}">&{'confirm.booking.cancel'}</a>    
+#{/form}
+
+</div>
+</body>
+</html>

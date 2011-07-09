@@ -1,0 +1,2 @@
+mongoimport.exe  -file c:\dev\projects\testplay\conf\shacks.json -c Shack -db vestnorsk
+mongoimport.exe  -file c:\dev\projects\testplay\conf\bookings.json -c Booking -db vestnorsk

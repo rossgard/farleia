@@ -1,0 +1,85 @@
+#{extends 'main.html' /} 
+#{set title:shack.name /} 
+	
+<div class="span-24 last">
+	<h2>${shack.name}</h2>
+	<p>&{'cabins.cabin1.subheader'}</p>
+
+	#{form @book(shack.id), id:'showBookingForm'}
+		<div class="span-5 colborder">
+			#{include './gallery.html' /}
+		</div>
+		
+		<div class="span-11 colborder">
+			<h6>${shack.name}</h6>
+			<p>&{'cabins.cabin1.description.first_paragraph'}</p>
+			<p>&{'cabins.cabin1.description.second_paragraph'}</p>
+			<p>&{'cabins.cabin1.description.third_paragraph'}</p>
+			<p>&{'cabins.cabin1.description.fourth_paragraph'}</p>
+			<p>&{'cabins.cabin1.description.fifth_paragraph'}</p>
+
+			<div class="span-5">
+				<table>
+					<thead>
+						<tr>
+							<th>&{'cabins.cabin.facilities.indoors'}</th>
+						</tr>
+					</thead>
+					<tbody>
+						#{list shack.indoorFacilitiesI18n(), as: 'facility'}
+						<tr>
+							<td>${facility}</td>
+						</tr>
+						#{/list}
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="span-6 last">
+				<table>
+					<thead>
+						<tr>
+							<th>&{'cabins.cabin.facilities.outdoors'}</th>
+						</tr>
+					</thead>
+					<tbody>
+						#{list shack.outdoorFacilitiesI18n(), as: 'facility'}
+						<tr>
+							<td id="row" class="row">${facility}</td>
+						</tr>
+						#{/list}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div class="span-5 last">
+			<input type="submit" value="&{'cabins.cabin.book'}" class="button" style="width:200px;height:30px">
+			<fieldset class="span-5">
+				<legend>&{'cabins.cabin.information.header'}</legend> 
+				<label>&{'cabins.cabin.information.number_of_beds'}: </label>${shack.numberOfBeds}<br />
+				<label>&{'cabins.cabin.information.number_of_bedrooms'}: </label>${shack.numberOfBedrooms}<br />
+				<label>&{'cabins.cabin.information.living_area'}: </label>${shack.livingArea}<br />
+				<label>&{'cabins.cabin.information.year_built'}: </label> ${shack.yearBuilt}<br />
+				<label>&{'cabins.cabin.information.smooking_allowed'}: </label>${shack.smokingAllowed()}<br />
+				<label>&{'cabins.cabin.information.pets_allowed'}: </label>${shack.petsAllowed()}<br />
+			</fieldset>
+
+			<fieldset class="span-5">
+				<legend>&{'cabins.cabin.distances.header'}</legend> 
+				<label>&{'cabins.cabin.distances.post'}: </label>7 &{'unit.kilometres'}<br />
+				<label>&{'cabins.cabin.distances.petrol_station'}: </label>2 &{'unit.kilometres'}<br />
+				<label>&{'cabins.cabin.distances.groceries'}: </label>7 &{'unit.kilometres'}<br />
+			</fieldset>
+
+			<fieldset class="span-5">
+				<legend>&{'cabins.cabin.additional_services.header'}</legend> 
+				&{'cabins.cabin.additional_services.boat_rental'}<br />
+				&{'cabins.cabin.additional_services.bedlinen_rental'}<br />
+				&{'cabins.cabin.additional_services.final_cleaning'}<br />
+			</fieldset>
+	
+			<a href="@{Shacks.index()}">&{'cabins.back.search'}</a>
+		</div>
+	#{/form}
+</div>

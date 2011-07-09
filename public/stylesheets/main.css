@@ -1,0 +1,240 @@
+body {
+	margin: 0; padding: 0;
+    background: #e0e0e0;
+    color: #333;
+    font: 11px/1.5 verdana, sans-serif;
+}
+
+.cleaner {
+    clear: both;
+    height: 1px; margin: 0;
+}
+
+#main {
+    position: relative;
+    width: 780px;
+    margin: 0 auto;
+    padding: 13px 0 0 0;
+}
+
+#topbg {
+    position: absolute; top: 0; left: 0; z-index: -1;
+    width: 100%; height: 143px;
+    background: #404040;
+}
+
+/* @group Header */
+
+#header {
+	position: relative;
+	width: 100%; height: 130px;
+	background: #3399CC;
+}
+
+#hdr-overlay {
+    position: relative; top: -15px; left: 54px;
+    width:100%; height: 145px;
+    background: url('/public/images/header.png') top right no-repeat;
+}
+    
+#header h1 {
+	position: absolute;
+	top: 35px;
+	right: 580px;
+	margin: 0;
+	width: 15em;
+	font-size: 55px;
+	line-height: 1.33;
+	font-weight: bold;
+	text-align: right;
+	color: #069;
+}
+
+#header h2 {
+	position: absolute;
+	top: 105px;
+	right: 500px;
+	margin: 0;
+	width: 15em;
+	font-size: 15px;
+	line-height: 1.33;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	color: white;
+}
+
+#header .box {
+    position: absolute; top: 6px;
+    width: 75px; height: 25px;
+    background: silver;
+}
+
+#hdr-box1 { left: 15px; }
+
+#hdr-box2 { left: 100px }
+
+#hdr-box3 { left: 185px }
+
+#hdr-box4 { left: 270px }
+
+/* @end */
+
+/* @group menu */
+
+#menu {
+    margin: 0; padding: 1px 0;
+    list-style-type: none;
+    height: 26px;
+}
+    
+#menu li {
+    float: left;
+    margin: 0; padding: 0;
+    width: 16%;
+}
+    
+#menu a {
+    position: relative;
+    display: block;
+    margin: 1px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: #036;
+    color: #069;
+}
+    
+#menu a span {
+    display: block;
+    position: absolute; top: 5px; left: 8px;
+    width: 8px; height: 8px;
+    background: #69c;
+}
+    
+#menu a.sel {
+    background: #FFCC66;
+    color: #036;
+}
+    
+#menu a:hover {
+    background: #006699;
+    color: #000033;
+}
+    
+/* @end */
+
+#galleria{height:500px;}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: auto;
+}
+
+table th {
+	color: #fff;
+	background-color: #069;
+}
+
+
+.button {
+border-color: #336666;
+background: #336666;
+color: #fff;
+font-weight: bold;
+margin:10px;
+}
+
+.fError, .fSuccess {
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.fError {
+    color: #c00;
+}
+
+.fSuccess {
+    color: #0c0;
+}
+
+div.contact {
+}
+
+.contact ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/** Login **/
+
+#login {
+    text-align: center;
+}
+
+#formLogin {
+    border-bottom: 1px dashed #aaa;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#formLogin label {
+    text-align: right;
+}
+
+#formLogin p.buttons {
+    text-align: center;
+    background: none;
+    margin-top: 0;
+}
+
+form p.hasError {
+    color: #c00;
+}
+
+form .buttons {
+    text-align: left;
+    background: #dedede;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/** Footer **/ 
+
+#footer {
+    padding: 10px;
+    font-size: x-small;
+    border-top: 1px dotted #ccc;
+    text-align: center;
+}
+
+
+#bookingForm fieldset {
+  border:none;
+  border-bottom: 1px dashed #d7d8d1;
+  margin: 0.1em;
+  padding: 0.1em;
+}
+
+#bookingForm label {
+  float:left;
+  width:20%;
+  padding-top:0.5em;
+  text-align:left;
+}
+

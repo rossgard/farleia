@@ -1,0 +1,63 @@
+#{extends 'main.html' /} #{set title: 'Farleia Sjøhus' /}
+
+#{set 'moreScripts'}
+<script src="@{'/public/javascripts/s3slider/s3slider.js'}" type="text/javascript" charset="utf-8"></script>
+   	 	<script>
+    		$(document).ready(function() {
+   			$('#s3slider').s3Slider({
+      		timeOut: 6000
+   			});
+			}); 
+    	</script>
+#{/set}
+<div class="span-24 last banner">
+	<div id="s3slider">
+	   <ul id="s3sliderContent">
+	      <li class="s3sliderImage">
+	          <img src="/public/images/slider/slider_001.jpg" />
+	          <span>Sletta kai</span>
+	      </li>
+	      <li class="s3sliderImage">
+	          <img src="/public/images/slider/slider_002.jpg" />
+	          <span>Utsikt mot nord</span>
+	      </li>
+	         <li class="s3sliderImage">
+	          <img src="/public/images/slider/slider_003.jpg" />
+	          <span>Utsikt mot øst</span>
+	      </li>
+			<div class="clear s3sliderImage"></div>
+		</ul>
+	</div> 
+</div>
+    	
+<div class="span-7 colborder">
+	<h6>&{'menu.box.left.header'}</h6>
+	<p>&{'menu.box.left'}</p>
+</div>
+		
+<div class="span-7 colborder">
+	<h6>&{'menu.box.middle.header'}</h6>
+	<p>&{'menu.box.middle'}</p>
+</div>
+
+<div class="span-7">
+	<h6>&{'menu.box.right.header'}</h6>
+	<p>&{'menu.box.right'}</p>
+	<!-- div  style="text-align:right">
+		<img src="/public/images/home/location.jpg" />
+		<script type="text/javascript" src="http://www.yr.no/place/Norway/Hordaland/Radøy/Sletta/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Norway/Hordaland/Radøy/Sletta/">yr.no: Forecast for Sletta</a></noscript>
+	</div-->
+</div>
+
+<div class="span-24 last">
+	<h2>&{'home.section.top.header'}</h2>
+	<p>&{'home.section.top'}</p>
+
+	<h2>&{'home.section.middle.header'}</h2>
+	<p>&{'home.section.middle'}</p>
+</div>
+
+<div class="span-24 last" style="text-align:right">
+     <a href="@{Application.initDb()}">Init db</a>
+	<a href="/admin">&{'menu.button.admin'}</a>
+</div>

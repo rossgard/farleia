@@ -1,0 +1,48 @@
+#{extends 'main.html' /} #{set title: 'Farleia Sjøhus' /}
+
+#{set 'moreScripts'}
+    <script src="@{'/public/javascripts/galleria/galleria.js'}" type="text/javascript" charset="utf-8"></script>
+#{/set}
+
+<div class="span-24 clear">
+	<h2>&{'gallery.header'}</h2>
+	<div class="content">
+		<div id="galleria">
+			<!-- 001 -->
+			<img alt="&{'gallery.img001.alt'}" title="&{'gallery.img001.title'}" src="/public/images/gallery/utsikt_mot_nord.jpg">
+			<!-- 002 -->
+			<img alt="&{'gallery.img002.alt'}" title="&{'gallery.img002.title'}" src="/public/images/gallery/utsikt_mot_nord_2.jpg">
+			<!-- 003 -->		
+			<img alt="&{'gallery.img003.alt'}" title="&{'gallery.img003.title'}" src="/public/images/gallery/utsikt_mot_nord_3.jpg">
+			<!-- 004 -->
+			<img src="/public/images/gallery/utsikt_mot_nord_4.jpg">
+			<!-- 005 -->
+			<img src="/public/images/gallery/cat_utsikt_nord.jpg">
+			<!-- 006 -->
+			<img src="/public/images/gallery/cat_utsikt_nord_2.jpg">
+			<!-- 007 -->
+			<img src="/public/images/gallery/cat_utsikt_nord_3.jpg">
+			<!-- 008 -->
+			<img src="/public/images/gallery/cat_utsikt_nord_4.jpg">
+			<!-- 009 -->
+			<img src="/public/images/gallery/cat_utsikt_nord_5.jpg">
+			<!-- 010 -->
+			<img src="/public/images/gallery/kai_mot_ost.jpg">
+			<!-- 011 -->
+			<img alt="&{'gallery.img011.alt'}" title="&{'gallery.img011.title'}" src="/public/images/gallery/muring.jpg">
+			<!-- 012 -->
+			<img alt="&{'gallery.img012.alt'}" title="&{'gallery.img012.title'}"  src="/public/images/gallery/sletta_kai.jpg">
+			<!-- 013 -->
+			<img alt="&{'gallery.img013.alt'}" title="&{'gallery.img013.title'}" src="/public/images/gallery/sletta_kai_2.jpg">
+			<!-- 014 -->
+			<img src="/public/images/gallery/usikt_kajakk.jpg">
+		</div>
+	</div>
+</div>
+
+<script>
+	//Load the classic theme
+	Galleria.loadTheme('/public/javascripts/galleria/galleria.classic.js');
+	// Initialize Galleria
+	$('#galleria').galleria();
+</script>

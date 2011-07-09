@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>#{get 'title' /}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="@{'/public/stylesheets/blueprint/screen.css'}">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="@{'/public/stylesheets/main.css'}">
+		<link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/s3slider/s3slider.css'}" />
+		
+		#{get 'moreStyles' /}
+		
+		<link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+		<script src="@{'/public/javascripts/jquery-1.4.2.min.js'}" type="text/javascript" charset="utf-8"></script>
+		<script src="@{'/public/javascripts/sessvars.js'}" type="text/javascript" charset="utf-8"></script>
+    	
+		#{get 'moreScripts' /}
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="span-24 last">
+				<div id="header">
+					<div id="hdr-overlay"></div>
+					<h1>&{'menu.header'}</h1>
+					<h2 class="append-2">&{'menu.subheader'}</h2>
+				</div>
+			</div>
+			<ul id="menu">
+				<li>
+					 <a href="@{Application.index()}">
+						<span></span>
+						&{'menu.button.home'}
+				</a>
+				</li>
+				<li>
+					 <a href="@{Gallery.index()}">
+						<span></span>
+						&{'menu.button.gallery'}
+				</a>
+				</li>
+				<li>	
+					<a href="@{Activities.index()}">
+						<span></span>
+						&{'menu.button.activities'}
+					</a>
+				</li>	
+				<li>	
+					<a href="@{Estate.index()}">
+						<span></span>
+						&{'menu.button.estate'}
+					</a>
+				</li>	
+				<li>	
+					<a href="@{Shacks.index()}">
+						<span></span>
+						&{'menu.button.booking'}
+				</a>
+				</li>	
+				<li>
+					 <a href="@{Contact.index()}">
+						<span></span>
+						&{'menu.button.contact'}
+					</a>
+				</li>
+			</ul>
+	
+			<!-- content goes here -->
+			<div class="span-24 last">
+				 <div id="content">
+            		#{if flash.error}
+		                <p class="fError">
+		                    <strong>${flash.error}</strong>
+		                </p>
+		            #{/if}
+		            #{if flash.success}
+		                <p class="fSuccess">
+		                    <strong>${flash.success}</strong>
+		                </p>
+		            #{/if}
+            		#{doLayout /}
+       	 		</div>
+        
+		        <div id="footer" style="clear:both">
+		            &{'footer.title'}
+		        </div>
+			</div>
+		</div>
+	</body>
+</html>

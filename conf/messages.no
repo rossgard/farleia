@@ -1,0 +1,208 @@
+# menu
+menu.header=Farleia Sjøhus
+menu.subheader=-ferie og fritid i farleia
+
+menu.box.left.header=Lorem ipsum dolor
+menu.box.left=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+menu.box.middle.header=Lorem ipsum dolor
+menu.box.middle=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+menu.box.right.header=Lorem ipsum dolor
+menu.box.right=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+menu.button.home=Forside
+menu.button.gallery=Fotoalbum
+menu.button.booking=Booking
+menu.button.activities=Aktiviteter
+menu.button.estate=Eiendom
+menu.button.contact=Kontakt oss
+menu.button.admin=Admin
+
+# home
+
+home.section.top.header=Lorem ipsum dolor
+
+home.section.top=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+home.section.middle.header=Lorem ipsum dolor
+
+home.section.middle=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+# gallery
+gallery.header=Fotoalbum
+
+gallery.img001.title=En fin vårdag
+gallery.img001.alt=Utsikt mot nord en fin vårdag.
+
+gallery.img002.title=En fin vårdag
+gallery.img002.alt=Utsikt fra en av de nederste tomtene.
+
+gallery.img003.title=En fin vårdag
+gallery.img003.alt=Sørligste del av området.
+
+gallery.img011.title=Muring
+gallery.img011.alt=Muring med Caterpillar.
+
+gallery.img012.title=Sletta kai
+gallery.img012.alt=Sletta kai.
+
+gallery.img013.title=Sletta kai
+gallery.img013.alt=Sletta kai.
+
+# activities
+activities.header=Aktiviteter
+activities.boatcruise=Båtturer/cruise
+activities.fishing=Havfiske
+activities.qajaq=Kajakk
+activities.watersport=Vannsport
+activities.diving=Dykking
+activities.skiing=Skiturer
+activities.shopping=Shopping
+
+# contact
+contact.header=Kontakt oss
+
+contact.section.header=Farleia Sjøhus
+contact.section.address=5939 Sletta
+contact.section.country=Norge
+contact.section.tlf=Tlf
+contact.section.celluar=Mobil
+contact.section.email=E-post
+contact.section.map=Kart
+
+# estate
+estate.header=Eiendom
+estate.area_plan=Reguleringsplan
+
+# cabins
+cabins.search.title=Søk etter tilgjengelige sjøhus
+cabins.search.header=Søk etter tilgjengelige sjøhus
+cabins.search=Søk
+
+cabins.search.from=Fra
+cabins.search.to=Til
+
+cabins.search.header.results.list=Tilgjengelige sjøhus
+cabins.search.header.results.empty=Ingen sjøhus er tilgjengelig i det akutelle tidsrommet
+
+cabins.cabin.facilities.indoors=Fasiliter innendørs
+cabins.cabin.facilities.outdoors=Fasiliter utendørs
+
+cabins.cabin.book=Reserver dette sjøhuset
+
+cabins.cabin.information.header=Informasjon
+cabins.cabin.information.number_of_beds=Antall senger
+cabins.cabin.information.number_of_bedrooms=Antall soverom
+cabins.cabin.information.living_area=Boareal
+cabins.cabin.information.year_built=Bygget år
+cabins.cabin.information.smooking_allowed=Røyking tillatt
+cabins.cabin.information.smooking_allowed.yes=Ja
+cabins.cabin.information.smooking_allowed.no=Nei
+
+cabins.cabin.information.pets_allowed=Kjæledyr tillatt
+cabins.cabin.information.pets_allowed.yes=Ja
+cabins.cabin.information.pets_allowed.no=Nei
+
+
+cabins.cabin.distances.header=Avstander
+cabins.cabin.distances.post=Post
+cabins.cabin.distances.petrol_station=Bensinstasjon
+cabins.cabin.distances.groceries=Matbutikk
+
+cabins.cabin.additional_services.header=Tilleggstjenester
+cabins.cabin.additional_services.boat_rental=Leie av båt
+cabins.cabin.additional_services.bedlinen_rental=Leie av sengetøy
+cabins.cabin.additional_services.final_cleaning=Utvask
+
+cabins.back.search=Tilbake til søk
+
+# units
+unit.kilometres=kilometer
+
+## Stålebu
+cabins.cabin1.subheader=Lorem ipsum dolor sit amet
+
+cabins.cabin1.description.first_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.second_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.third_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.fourth_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.fifth_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+# booking
+
+booking.title=Reserver
+booking.header=Reserver
+booking.firstName=Fornavn
+booking.familyName=Etternavn
+booking.numberOfAdults=Antall voksne
+booking.numberOfChildren=Antall barn
+booking.address=Adresse
+booking.zipCode=Postnummer
+booking.city=By
+booking.country=Land
+booking.telephoneNumber=Telefonnummer
+booking.mobilePhoneNumber=Mobilnummer
+booking.email=E-post
+booking.details=Kommentarer som legges til reserverasjonen (f.eks. angående sengetøy, leie av båt etc.)
+
+booking.checkindate=Innsjekking
+booking.checkoutdate=Utsjekking
+booking.submit=Gå til bekreftelse
+booking.cancel=Avbryt
+
+# confirm booking
+confirm.booking.title=Bekreft reservasjon
+confirm.booking.header=Bekreft reservasjon
+confirm.booking.numberOfPersons=Antall personer (voksne/barn)
+confirm.booking.zipCode_city=Postnummer/by
+confirm.booking.details=Kommentarer
+confirm.booking.confirm=Bekreft
+confirm.booking.revise=Endre
+confirm.booking.cancel=Avbryt
+confirm.booking.confirmation=Takk for bestillingen!. Ditt reservasjonsnummer er %s
+
+facility.cd_player_radio = CD-spiller/radio
+facility.coffe_machine = Kaffemaskin
+facility.dishwascher = Oppvaskemaskin
+facility.electricity = Elektrisitet
+facility.fridge = Frys
+facility.kettle = Vannkoker
+facility.microwave = Mikrobølgeovn
+facility.shower = Dusj
+facility.stove = Ovn
+facility.toilet = Toalett
+facility.tv = TV
+facility.waffle_iron = Vaffeljern
+facility.washing_machine = Vaskemaskin
+facility.drive_to_the_door = Parkering utenfor døren
+facility.garden_furniture = Hagemøbler
+facility.patio = Bakgård
+facility.terrace = Terrasse
+
+#footer
+footer.title=Farleia Sjøhus - Copyright 2011
+
+#play
+validation.invalid=Ugyldig verdi
+validation.required=%s må fylles ut
+validation.match=Må samsvare med %2$s
+validation.range=Ikke mellom %2$d og %3$d 
+
+validation.min=Ugyldig verdi
+validation.min.numberOfAdults=Antall voksne må være flere enn 0
+
+validation.email=Ugyldig e-postadresse
+checkinDate=Innsjekkingdato
+checkoutDate=Utsjekkingdato

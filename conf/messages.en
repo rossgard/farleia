@@ -1,0 +1,185 @@
+# menu
+menu.header=Farleia Cabins
+menu.subheader=-holiday in farleia
+
+menu.box.left.header=Lorem ipsum dolor
+menu.box.left=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+menu.box.middle.header=Lorem ipsum dolor
+menu.box.middle=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+menu.box.right.header=Lorem ipsum dolor
+menu.box.right=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+menu.button.home=Home
+menu.button.gallery=Gallery
+menu.button.booking=Booking
+menu.button.activities=Activities
+menu.button.estate=Estate
+menu.button.contact=Contact
+menu.button.admin=Administration
+
+# home
+home.section.top.header=Lorem ipsum dolor
+
+home.section.top=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+home.section.middle.header=Lorem ipsum dolor
+
+home.section.middle=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+# gallery
+gallery.header=Gallery
+
+gallery.img001.title=A beautiful day in the spring
+gallery.img001.alt=...
+
+gallery.img002.title=...
+gallery.img002.alt=...
+
+gallery.img003.title=...
+gallery.img003.alt=...
+
+gallery.img011.title=...
+gallery.img011.alt=...
+
+gallery.img012.title=...
+gallery.img012.alt=...
+
+gallery.img013.title=...
+gallery.img013.alt=...
+
+# activities
+activities.header=Activities
+activities.boatcruise=Boat cruise
+activities.fishing=Sea fishing
+activities.qajaq=Qajaq
+activities.watersport=Water sport
+activities.diving=Diving
+activities.skiing=Skitrips
+activities.shopping=Shopping
+
+# contact
+contact.header=Contact information
+
+contact.section.header=Farleia Cabins
+contact.section.address=5939 Sletta
+contact.section.country=Norway
+contact.section.tlf=Tlf
+contact.section.celluar=Celluar
+contact.section.email=E-mail
+contact.section.map=Map
+
+# estate
+estate.header=Estate
+
+# cabins
+cabins.search.title=Search for available cabins
+cabins.search.header=Search for available cabins
+cabins.search=Search
+
+cabins.search.from=From
+cabins.search.to=To
+
+cabins.search.header.results.list=Available cabins
+cabins.search.header.results.empty=No cabins available
+
+cabins.cabin.facilities.indoors=Indoor facilities
+cabins.cabin.facilities.outdoors=Outdoor facilities
+
+cabins.cabin.book=Book cabin
+
+cabins.cabin.information.header=Information
+cabins.cabin.information.number_of_beds=Number of beds
+cabins.cabin.information.number_of_bedrooms=Number of bedrooms
+cabins.cabin.information.living_area=Living area
+cabins.cabin.information.year_built=Year built
+cabins.cabin.information.smooking_allowed=Smoking allowed
+cabins.cabin.information.smooking_allowed.yes=Yes
+cabins.cabin.information.smooking_allowed.no=No
+cabins.cabin.information.pets_allowed=Pets allowed
+cabins.cabin.information.pets_allowed.yes=Yes
+cabins.cabin.information.pets_allowed.no=No
+
+cabins.cabin.distances.header=Distances
+cabins.cabin.distances.post=Post/bank
+cabins.cabin.distances.petrol_station=Petrol station
+cabins.cabin.distances.groceries=Grocery store
+
+cabins.cabin.additional_services.header=Additional services
+cabins.cabin.additional_services.boat_rental=Boat rental
+cabins.cabin.additional_services.bedlinen_rental=Bedlinen rental
+cabins.cabin.additional_services.final_cleaning=Final cleaing
+
+cabins.back.search=Back to search
+
+# units
+unit.kilometres=kilometres
+
+## Stålebu
+cabins.cabin1.subheader=Lorem ipsum dolor sit amet
+
+cabins.cabin1.description.first_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.second_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.third_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.fourth_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+cabins.cabin1.description.fifth_paragraph=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+
+# booking
+
+booking.title=Book
+booking.header=Book
+booking.firstName=First name
+booking.familyName=Family name
+booking.numberOfAdults=Number of adults
+booking.numberOfChildren=Number of children
+booking.address=Address
+booking.zipCode=Zipcode
+booking.city=City
+booking.country=Country
+booking.telephoneNumber=Telephone
+booking.mobilePhoneNumber=Celluar
+booking.email=E-mail
+booking.details=Various details regarding the reservation(bedlinen, boat rental etc.)
+
+booking.checkindate=Checkin date
+booking.checkoutdate=Checkout date
+booking.submit=Go to confirmation
+booking.cancel=Cancel
+
+facility.cd_player_radio = CD player/radio
+facility.coffe_machine = Coffee machine
+facility.dishwasher = Dishwasher
+facility.electricity = Electricity
+facility.fridge = Fridge
+facility.kettle = Kettle
+facility.microwave = Microwave
+facility.shower = Shower
+facility.stove = Stove
+facility.toilet = Toilet
+facility.tv = TV
+facility.waffle_iron = Waffle iron
+facility.washing_machine = Washing machine
+facility.drive_to_the_door = Drive to the door
+facility.garden_furniture = Garden furniture
+facility.patio = Patio
+facility.terrace = Terrace
+
+#footer
+footer.title=Farleia Cabins - Copyright 2011
+
+#play
+validation.required=%s required
+checkinDate=Checkin date
+checkoutDate=Checkout date

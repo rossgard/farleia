@@ -1,0 +1,19 @@
+#{extends 'main.html' /} #{set title: 'Farleia Sjøhus' /} 
+
+<h2>Message bundle</h2>
+<ul>
+<li>
+	<a href="@{download('no')}">Download Norwegian message bundle</a></li>
+	<li>
+	<a href="@{download('en')}">Download English message bundle</a>
+	</li>
+	</ul>
+
+<form action="@{upload}" method="POST" enctype="multipart/form-data">
+    <input type="file" id="messages" name="messages" />
+    <input type="submit" value="Upload messages" />
+		
+</form>
+
+
+

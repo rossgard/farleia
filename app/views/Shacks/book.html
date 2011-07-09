@@ -1,0 +1,165 @@
+#{extends 'main.html' /}
+
+#{set 'moreScripts'}
+	<script src="@{'/public/javascripts/jquery-ui-1.7.2.custom.min.js'}" type="text/javascript" charset="utf-8"></script>
+#{/set} 
+
+#{set 'moreStyles'}
+	<link rel="stylesheet" type="text/css" media="screen" href="@{'/public/ui-lightness/jquery-ui-1.7.2.custom.css'}" />
+#{/set}
+
+#{set title:'Book ' + shack.name /}
+<div class="span-24 last">
+	<h2>&{'booking.header'} ${shack.name}</h2>
+	
+	#{form @confirmBooking(shack.id), id:'bookingForm'}
+		<div class="span-16 colborder">
+			<fieldset>
+				#{field 'booking.firstName'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.firstName'}: </label>
+			    		<input type="text" size="30" name="${field.name}" value="${booking?.firstName}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+			  	
+			  	#{field 'booking.familyName'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.familyName'}:</label>
+			    		<input type="text" size="30" name="${field.name}" value="${booking?.familyName}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	</fieldset>
+		
+			<fieldset>  	
+				#{field 'booking.numberOfAdults'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.numberOfAdults'}:</label>
+			    		<input type="text" size="1" name="${field.name}" value="${booking?.numberOfAdults}"  /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+			  	
+				#{field 'booking.numberOfChildren'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.numberOfChildren'}:</label>
+			    		<input type="text" size="1" name="${field.name}" value="${booking?.numberOfChildren}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	</fieldset>
+			  	
+		  	<fieldset>
+			  	#{field 'booking.address'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.address'}:</label>
+			    		<input type="text" size="40" name="${field.name}" value="${booking?.address}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	
+				#{field 'booking.zipCode'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.zipCode'}:</label>
+			    		<input type="text" size="15" name="${field.name}" value="${booking?.zipCode}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	
+		  		#{field 'booking.city'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.city'}:</label>
+			    		<input type="text" size="25" name="${field.name}" value="${booking?.city}" /> *
+						<span class="error">${field.error}</span>
+					</p>
+		  		#{/field}
+		  	
+			  	#{field 'booking.country'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.country'}:</label>
+			    		<input type="text" size="25" name="${field.name}" value="${booking?.country}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	</fieldset>
+		  		 	
+		  	<fieldset>
+				#{field 'booking.telephoneNumber'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.telephoneNumber'}:</label>
+			    		<input type="text" size="15" name="${field.name}" value="${booking?.telephoneNumber}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	
+			  	#{field 'booking.mobilePhoneNumber'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.mobilePhoneNumber'}:</label>
+			    		<input type="text" size="15" name="${field.name}" value="${booking?.mobilePhoneNumber}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	
+			  	#{field 'booking.email'}
+			    	<p class="${field.errorClass}">
+			    		<label>&{'booking.email'}:</label>
+			    		<input type="text" size="25" name="${field.name}" value="${booking?.email}" /> *
+						<span class="error">${field.error}</span>
+			        </p>
+			  	#{/field}
+		  	</fieldset>
+		  	
+		  	<fieldset>
+				#{field 'booking.checkinDate'}
+			        <p class="${field.errorClass}">
+			            <strong>Check In Date:</strong> <input type="text" size="10" name="${field.name}" class="datepicker" value="${booking?.checkinDate?.format('yyyy-MM-dd')}"> *
+			            <span class="error">${field.error}</span>
+			        </p>
+			    #{/field}
+			    #{field 'booking.checkoutDate'}
+			        <p class="${field.errorClass}">
+			            <strong>Check Out Date:</strong> <input type="text" size="10" name="${field.name}" class="datepicker" value="${booking?.checkoutDate?.format('yyyy-MM-dd')}"> *
+			            <span class="error">${field.error}</span>
+			        </p>
+			    #{/field}	
+			</fieldset>
+	
+	
+		  	<fieldset>
+				#{field 'booking.details'}
+			    	<p class="${field.errorClass}">
+			    		<div class="span-16 last">
+			    		<label style="width:90%">&{'booking.details'}:</label>
+			    		<br/>
+			    		<textarea rows="10" cols="10" style="width:90%" name="${field.name}" value="${booking?.details}"></textarea>
+			    		<span class="error">${field.error}</span>
+			    		</div>
+			        </p>
+			  	#{/field}
+		  	</fieldset>
+		    <p>
+		        <input type="submit" value="&{'booking.submit'}" class="button" /> <a href="@{showCabin(shack.id)}">&{'booking.cancel'}</a>    
+		    </p>
+		</div>
+		
+		<div class="span-6 last">
+				<fieldset class="span-6">
+				<legend>${shack.name}</legend>
+					<img src="/public/images/cabins/cabin1.jpg" alt="Title #0" width="100%" />
+					<ul>
+					
+					</ul>
+				</fieldset>
+			</div>
+		</div>			
+	#{/form}
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+		$(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
+	});
+</script>
+
+			

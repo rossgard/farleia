@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="/public/stylesheets/blueprint/screen.css"
+	type="text/css" media="screen, projection">
+<!--<link rel="stylesheet" href="/public/stylesheets/blueprint/print.css"
+	type="text/css" media="print">
+
+-->
+<!--[if lt IE 8]>
+  <link rel="stylesheet" href="/public/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">
+<![endif]-->
+
+<title>Vestnorsk Fisherman's shacks</title>
+</head>
+<body>
+
+<div class="container">
+
+<h1>Edit booking</h1>
+<hr>
+
+<form action="/booking/review" method="POST">
+
+<label for="firstname">Firstname</label>
+<input id="firstname" type="text" name="booking.firstName" value="${booking.firstName}" />
+
+<label for="familyName">FamilyName</label>
+<input id="familyName" type="text" name="booking.familyName" value="${booking.familyName}" />
+
+<button id="createBooking" type="submit">Update booking</button> 
+</form>
+
+</div>
+</body>
+</html>

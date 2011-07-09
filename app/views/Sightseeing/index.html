@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+
+#{set 'moreStyles'}
+	<link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/galleriffic/white.css'}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/galleriffic/galleriffic-5.css'}" />
+#{/set}
+
+<div id="page">
+	<div id="container">
+		<h2>&{'gallery.header'}</h2>
+	</div>
+	
+	#{include './gallery.html' /}
+</div>	

@@ -1,0 +1,43 @@
+#{ifErrors}
+	<ul>
+		#{errors}
+		<li>
+			${error}
+		</li>
+		#{/errors}
+	</ul>
+#{/ifErrors}
+
+#{else}
+	#{if shacks}
+		<table width="100%">
+			<thead>
+				<tr>
+					<th colspan="2">&{'cabins.search.header.results.list'}</th>
+				</tr>
+			</thead>
+			<tbody>
+					#{list shacks, as: 'shack'}
+				<tr>
+					<td width="90px">
+						<a href="@{Shacks.showCabin(shack.id)}">
+							<img src="/public/images/cabins/location.jpg" width="90px" />
+						</a>
+					</td>
+					<td style="vertical-align: top">
+						<a href="@{Shacks.showCabin(shack.id)}">${shack.name}</a>
+						<p>
+						bLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.
+						</p>
+					</td>
+				</tr>
+					#{/list}
+			</tbody>
+		</table>
+	#{/if}
+
+	#{else}
+		Ingen sjøbuer er tilgjengelige i det aktuelle tidsrommet.
+	#{/else}
+#{/else}

@@ -1,0 +1,19 @@
+# Bookings
+
+models.Booking(1):
+    firstName:               Johnny
+    familyName:              Cohagen
+    checkinDate:             2011-04-06
+    checkoutDate:            2011-10-08
+    numberOfAdults:          1
+    numberOfChildren:        2
+    address:                 Cohagen street 54
+    zipCode:                 1-234
+    city:                    New York
+    country:                 USA
+    telephone:               45676767
+    celluarPhone:            99999999
+    email:                   test@gmail.com
+    details:                 Would like to rent a boat
+    
+    

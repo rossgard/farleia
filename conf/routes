@@ -1,0 +1,38 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET		/											Application.index
+
+# Shacks
+GET		/shacks    		                        	Shacks.index
+GET		/shacks/listCabins							Shacks.listCabins
+GET     /shacks/{id}                            	Shacks.showCabin
+
+POST     /shacks/{id}/book                  	    Shacks.book
+POST    /shacks/{id}/confirm                   	    Shacks.confirmBooking
+
+DELETE  /shacks/{id}			   	            	Shacks.cancelBooking
+
+# Gallery
+GET		/gallery									Gallery.index
+
+# Location
+GET		/location									Location.index
+
+# Contact
+GET		/contact									Contact.index
+
+# Admin
+#*       /admin	                             		module:crudsiena
+
+# Message bundle
+GET		/messagebundle								MessageBundle.index
+GET		/messagebundle/download						MessageBundle.download(format:'xml')
+POST	/messagebundle/updateBundle					MessageBundle.index
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                	staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  	{controller}.{action}

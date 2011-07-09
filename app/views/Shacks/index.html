@@ -1,0 +1,69 @@
+#{extends 'main.html' /} #{set title: 'Farleia Sjøhus' /} 
+
+#{set 'moreScripts'}
+	<script src="@{'/public/javascripts/jquery-ui-1.7.2.custom.min.js'}" type="text/javascript" charset="utf-8"></script>
+#{/set} 
+
+#{set 'moreStyles'}
+	<link rel="stylesheet" type="text/css" media="screen" href="@{'/public/ui-lightness/jquery-ui-1.7.2.custom.css'}" />
+#{/set}
+
+<div class="span-24 last">
+	<h2>&{'cabins.search.header'}</h2>
+	&{'cabins.search.from'}: 
+	<input id="checkInDate" type="text" size="7"  class="datepicker">
+	
+	&{'cabins.search.to'}: 
+	<input id="checkOutDate" type="text" size="7" class="datepicker">
+	
+	<input type="submit" id="submit" value="&{'cabins.search'}">
+
+	<div id="result">
+
+	</div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+
+    // Rebuild state
+    $('#checkInDate').val(sessvars.checkInDate)
+    $('#checkOutDate').val(sessvars.checkOutDate)
+    
+    if(sessvars.page == undefined) {
+        sessvars.page = 1
+    }
+    
+    // Search function
+    var search = function() {
+        sessvars.checkInDate = $('#checkInDate').val()
+        sessvars.checkOutDate = $('#checkOutDate').val()
+        var listAction = #{jsAction @listCabins(':checkInDate', ':checkOutDate') /}
+
+        $('#result').load(listAction({checkInDate: sessvars.checkInDate, checkOutDate: sessvars.checkOutDate}), function() {
+            $('#content').css('visibility', 'visible')
+        })
+    }
+    
+    // Events handler
+    $('#submit').click(function() {
+        search()
+    })
+    $('#checkInDate').keyup(function() {
+        search()
+    })
+	$('#checkOutDate').keyup(function() {
+        search()
+    })
+    
+    // Init
+    if(sessvars.search != undefined) {
+        $('#content').css('visibility', 'hidden')
+        search()
+    }
+</script>
+
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+		$(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
+	});
+</script>
